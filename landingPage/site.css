@@ -1,0 +1,274 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+   font-family:'Helvetica';
+}
+
+header{
+padding-top:30px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+h1{
+width:90%;
+margin:0 auto;
+    color:#FFF;
+font-family:'Source Sans Pro', sans-serif;
+font-size:60px;
+letter-spacing:2px;
+}
+
+h2{
+    font-family:'Helvetica', sans-serif;
+    font-size:34px;
+    border-bottom:solid 1px #cccccc;
+    padding-bottom:30px;
+    width:100%;
+}
+
+h3{
+font-size:20px;
+}
+
+.start{
+width:100%;
+height:auto;
+background:url(images/1.jpg);
+background-size:cover;
+background-attachment: fixed;
+background-position:center;
+text-align:center;
+padding-bottom:60px;
+}
+
+
+.action{
+   width:40%;
+    color:#FFF;
+    margin:0 auto;
+    height:auto;
+    font-size:18px;
+    padding:50px;
+    font-family:Helvetica;
+    margin-top:40px;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+.start p{
+margin-bottom:20px;
+}
+
+.start a
+{
+    background-color:#203359;
+    color:#FFF;
+    padding:20px;
+    font-family: 'Helvetica', sans-serif;
+    text-decoration:none;
+    display:inline-block;
+    font-size:24px;
+    
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    
+}
+
+.start a:hover{
+background-color:#3B5998;
+}
+
+.slogan{
+width:100%;
+background-color:#f4f4f4;
+height:auto;
+text-align:center;
+font-size:18px;
+    padding-top:35px;
+    padding-bottom:35px;
+font-family:Helvetica;
+    color:#545454;
+    font-weight:bold;
+}
+
+.slogan-inner
+{
+    width:70%;
+    margin:0 auto;
+}
+
+.about
+{
+    background-color:#fcfcfc;
+    width:100%;
+    height:auto;
+    color:#545454;
+}
+
+.about-inner
+{
+width:80%;
+height:auto;
+margin:0 auto;
+padding:50px 0 50px 0;
+}
+
+.about img{
+width:150px;
+height:auto;
+display:inline-block;
+}
+
+.about-inner p{
+display:inline-block;
+width:94.4%;
+padding:20px 0 20px 30px;
+    font-family:Helvetica;
+    vertical-align:top;
+border-left:solid 6px #cccccc;
+}
+
+.credits
+{
+    background-color:#f4f4f4;
+    width:100%;
+    height:auto;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.people
+{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    color:#545454;
+    font-family:Helvetica;
+}
+
+
+.diego, .enrique, .carlos, .santiago
+{
+    width:23.3%;
+    height:400px;
+   /* background-color:#fcfcfc; */
+    display:inline-block;
+    margin-right:20px;
+    text-align:center;
+    padding-top:10px;
+    margin-top:10px;
+    vertical-align:top;
+}
+
+
+.profile{
+    width:150px;
+    border-radius:50%;
+    padding:10px;
+    -webkit-filter: grayscale(80%);
+    -moz-filter: grayscale(80%);
+    -o-filter:grayscale(80%);
+    filter: grayscale(80%);
+}
+
+.santiago{
+margin-right:-20px;
+}
+
+.enrique h2{
+    font-size:22px;
+    padding-bottom:8px;
+}
+
+
+/*=========RESPONSIVE STARTS NOW==========*/
+
+@media screen and (max-width: 480px) {
+ 
+h1
+{
+  font-size:42px;
+}   
+
+    
+h2{
+    text-align:center;
+    font-size:50px;
+        width:100%;
+    
+    }
+    .action{
+    width:85%;
+    padding:0;
+    margin:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:35px;
+    }
+    
+.start p{
+    display:none;
+    }
+    
+.start a{
+    width:86%;
+        padding:20px;
+        margin-top:-30px;
+    }
+
+  .diego, .enrique, .carlos, .santiago
+{
+   width:100%;
+   display:block;
+   margin-right:-60px;
+   height:auto;
+   
+}
+    
+}
+
+@media screen and (min-width:480px) and (max-width:770px) {
+
+
+    
+  .diego, .enrique, .carlos, .santiago
+{
+   width:47%;
+   display:inline-block;
+   height:auto;
+   
+}
+
+.enrique{
+    padding-right:14px;
+    margin-right:-20px;
+    }    
+    
+} 
+
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  .diego, .enrique, .carlos, .santiago
+{
+   width:48.5%;
+   display:inline-block;
+   height:auto;
+   
+}   
+    .enrique{
+    margin-right:-20px;
+    }
+    
+} 
+
+
+
+
